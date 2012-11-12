@@ -1,0 +1,1 @@
+Copy `emacs` in `~/.emacs` and the content of the `emacs.d` folder into `.emacs.d`
