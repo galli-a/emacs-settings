@@ -1,5 +1,13 @@
 (require 'cl)
 (require 'package)
+
+; add marmalade to the package archive source list
+(require 'package)
+(add-to-list 'package-archives
+       '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(package-initialize)
+
+; add melpa to the package archive source list
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
@@ -16,7 +24,8 @@
   '(markdown-mode
     python
     solarized-theme
-    zenburn-theme)
+    zenburn-theme
+    color-theme-dawn-night)
   "A list of packages to ensure are installed at launch.")
 
 (defun my-packages-installed-p ()

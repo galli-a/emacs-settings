@@ -1,9 +1,3 @@
-; add marmalade to the package archive source list
-(require 'package)
-(add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(package-initialize)
-
 ; change default font
 (set-face-attribute 'default nil :family "Consolas" :height 120)
 
