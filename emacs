@@ -1,5 +1,8 @@
-; path for loading packages
-(add-to-list 'load-path "~/.emacs.d")
+; copy this file in the home directory as .emacs
+;
+
+; path for loading additional files
+(add-to-list 'load-path "~/emacs-settings")
 
 ; load package managment file
 (load-library "my_packages.el")
