@@ -16,8 +16,8 @@
 (setq url-http-attempt-keepalives nil)
 
 ; handle proxy
-; (setq url-proxy-services '(("http" . "proxy3.whirlpool.com:8080")
-;   ("https" . "proxy3.whirlpool.com:8080")))
+ (setq url-proxy-services '(("http" . "proxy3.whirlpool.com:8080")
+   ("https" . "proxy3.whirlpool.com:8080")))
 
 ;;
 (defvar my-packages
