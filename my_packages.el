@@ -16,8 +16,8 @@
 (setq url-http-attempt-keepalives nil)
 
 ; handle proxy
-(setq url-proxy-services '(("http" . "proxy3.whirlpool.com:8080")
-  ("https" . "proxy3.whirlpool.com:8080")))
+; (setq url-proxy-services '(("http" . "proxy3.whirlpool.com:8080")
+;   ("https" . "proxy3.whirlpool.com:8080")))
 
 ;;
 (defvar my-packages
@@ -25,7 +25,8 @@
     python
     solarized-theme
     zenburn-theme
-    color-theme-dawn-night)
+    color-theme-dawn-night
+    powerline)
   "A list of packages to ensure are installed at launch.")
 
 (defun my-packages-installed-p ()

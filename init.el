@@ -29,5 +29,8 @@
 (if window-system
       (set-frame-size (selected-frame) 140 35))
 
+; load powerline
+(require 'powerline)
+
 ; load solarized theme
 (load-theme 'solarized-dark t)
